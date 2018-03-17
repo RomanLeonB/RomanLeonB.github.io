@@ -53,7 +53,7 @@ margin: 0 auto;
  
 #footer{
 background-color: #2f2f2f;
-padding: 50px 0;
+padding: 20px 0;
 }
 
 .column{
@@ -112,11 +112,15 @@ letter-spacing: 0.1em;
 }
 
 h1,h2,h3,h4{
-color: #333;
+color: black;
 }
 
 p{
 line-height: 1.5;
+}
+
+.post-container{
+background-image: url(Wissenschaft-junges-Sonnensystem_xl.jpg);
 }
 
 .post-container:nth-child(even)
@@ -148,3 +152,5 @@ text-align: center;
 .img-circle {
 border-radius: 50%;
 }
+
+
