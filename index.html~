@@ -1,11 +1,12 @@
 <!--created by r2d2--> 
 <!-- @date 02.03.2018--> 
+
 <!DOCTYPE html>
 <html lang="en-GB">
 <head>
 <title>My blog</title>
 <link rel="stylesheet" type="text/css" href="styles.css">
-<meta name="viewport" = content="width=1200px">
+<meta name="viewport" = content="width=device-width">
 </head>
 <body>
 
@@ -19,27 +20,38 @@
  </div>
 </div>
 
-
-<div id="content"> 
- <div class="container">
- 	<div class="about">	
- 		<div class="about-author">
+<div id="content">
+ <div class="post-container">
+ 	<div class="post">	
+ 		<div class="post-author">
 			<img class="img-circle" src="ESA_Rosetta_NAVCAM_20160327_LR.jpg" > 
-			</div>	
- 		<h1 class="about-title">Becoming a web developer</h1> 	
- 		<div class="about-content">
- 			<p>If somebody would have told me a week ago that I would be able to make a website. I would not believed them.</p>
-		</div>
+			<span>Me</span>		
+ 		</div>	
+ 		<p class="post-date">
+		<script>
+		var date = new Date()
+		var year = date.getFullYear();
+		var month = date.getMonth() + 1;
+		var day = date.getDate();
+		document.write(year + "/" + month + "/" + day);
+		</script> 		
+ 		</p>
+ 		<h3 class="post-title">First</h3> 	
+ 		<div class="post-content">
+			<p>
+				<a href="https://www.w3schools.com/"> site learning</a>
+			</p> 		
+ 		</div>
  	</div>
  </div>
-</div>
+ </div>
 
 <div id="footer"> 
  <div class="container">
  	<div class="column">
  		<h4>My Links</h4>
  		<p>
-			<a href="www.google.de" > Platzhalter
+			<a href="https://www.google.de/" > Platzhalter
 			</a> 		
 		</p>
  	</div> 
