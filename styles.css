@@ -153,4 +153,13 @@ text-align: center;
 border-radius: 50%;
 }
 
+/* Blog Text*/
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  width: 200px;
+  height: 400px;
+}
+
 
