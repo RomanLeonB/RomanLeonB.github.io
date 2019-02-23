@@ -12,19 +12,21 @@ margin: 0;
 font-family: 'Montserrat', sans-serif;
 }
 #header{
-background-color: $back-color;
-height: $primary-height;
-line-height: $primary-height;
+	background-color: $back-color;
+	height: $primary-height;
+	line-height: $primary-height;
+	
+	a{
+		color: white;
+		text-decoration: none;
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+	 }
+	a:hover{
+	color: #222;
+	}
 }
-#header a{
-color: white;
-text-decoration: none;
-text-transform: uppercase;
-letter-spacing: 0.1em;
-}
-#header a:hover{
-color: #222;
-}
+ 
 #header-title{
 display: block;
 float: left;
@@ -32,48 +34,39 @@ font-size: 20px;
 font-weight: bold;
 }
 #header-nav{
-display: block;
-float: right;
-margin-top: 0;
+	display: block;
+	float: right;
+	margin-top: 0;
+	
+	li{
+		display: inline;
+		padding-left: 20px;
+	}
 }
-#header-nav li{
-display: inline;
-padding-left: 20px;
-}
-.container{
-max-width: 1000px;
-margin: 0 auto;
-}
-
-
 /*  footer */
 #footer{
-background-color: $back-color_footer;
-padding: 20px 0;
+	background-color: $back-color_footer;
+	padding: 20px 0;
+	
+	h4{
+		color: white;
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+	}
+	
+	p{
+		color: white;
+	}
+	
+	
+	a{
+		color: $back-color;
+		text-decoration: none;
+	}
+	a:hover{
+		color: #f6a623;
+	}
 }
-.column{
-min-width: 300px;
-display: inline-block;
-vertical-align: bottom;
-}
-#footer h4{
-color: white;
-text-transform: uppercase;
-letter-spacing: 0.1em;
-}
-#footer p{
-color: white;
-}
-/* for all a */
-a{
-color: $back-color;
-text-decoration: none;
-}
-a:hover{
-color: #f6a623;
-}
-
-
 /* Content*/
 .post{
 max-width: 800px;
@@ -95,12 +88,6 @@ font-weight: bold;
 text-transform: uppercase;
 letter-spacing: 0.1em;
 }
-h1,h2,h3,h4{
-color: black;
-}
-p{
-line-height: 1.5;
-}
 .post-container{
 background-image: url(pic/Wissenschaft-junges-Sonnensystem_xl.jpg);
 }
@@ -114,6 +101,20 @@ background-color: #f2f2f2;
 max-width: 800px;
 margin: 0 auto;
 padding: 60px 0;
+	a{
+	color: $back-color;
+	text-decoration: none;
+   }
+ 	a:hover{
+	color: #f6a623;
+  }
+
+  h1,h2,h3,h4{
+	color: black;
+  }
+  p{
+	line-height: 1.5;
+  }
 }
 .about-author img{
 width: 100px;
@@ -133,6 +134,30 @@ border-radius: 50%;
   margin-top: 20px;
   width: 200px;
   height: 400px;
+ a{
+	color: $back-color;
+	text-decoration: none;
+  }
+ a:hover{
+	color: #f6a623;
+ }
+
+ h1,h2,h3,h4{
+	color: black;
+ }
+ p{
+	line-height: 1.5;
+ }
 }
 
 
+.container{
+max-width: 1000px;
+margin: 0 auto;
+}
+
+.column{
+min-width: 300px;
+display: inline-block;
+vertical-align: bottom;
+}
