@@ -85,7 +85,7 @@ body {
 .post, .about {
   max-width: 800px;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 150px 0;
 }
 .post a, .about a {
   color: #1abc9c;
