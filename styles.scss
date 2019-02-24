@@ -2,11 +2,11 @@
 
 $primary-color: #555;
 $back-color: #1abc9c;
-$back-color_footer: #1abc9c;
 $primary-height: 150px;
 
 
 body{
+background-color: white;
 color: $primary-color;
 margin: 0;
 font-family: 'Montserrat', sans-serif;
@@ -43,26 +43,19 @@ font-weight: bold;
 		padding-left: 20px;
 	}
 }
-#footer{
-	background-color: $back-color_footer;
-	padding: 20px 0;
-	
-	h4{
-		color: white;
-		text-transform: uppercase;
-		letter-spacing: 0.1em;
-	}
-	
-	p{
-		color: white;
-	}
-	
-	
-	a{
-		color: $back-color;
-		text-decoration: none;
-	}
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
 }
+
+
 /* Content*/
 .post{
 max-width: 800px;
@@ -96,7 +89,7 @@ background-color: #f2f2f2;
 .post, .about{
 max-width: 800px;
 margin: 0 auto;
-padding: 60px 0;
+padding: 95px 0;
 	a{
 	color: $back-color;
 	text-decoration: none;
@@ -137,19 +130,16 @@ border-radius: 50%;
   box-shadow: 0 8px 16px 0 rgba(0,0,255,0.7);
 }
 
-/* Add some padding inside the card container */
-.container {
-  
-}
+
 
 .container{
 padding: 2px 16px;
-max-width: 1000px;
+max-width: 500px;
 margin: 0 auto;
 }
 
 .column{
-min-width: 300px;
+min-width: 1000px;
 display: inline-block;
 vertical-align: bottom;
 }
