@@ -1,16 +1,16 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
-
+/* Variables*/
 $primary-color: #555;
 $back-color: #1abc9c;
 $primary-height: 150px;
-
-
+/* Body*/
 body{
 background-color: white;
 color: $primary-color;
 margin: 0;
 font-family: 'Montserrat', sans-serif;
 }
+/* Header*/
 #header{
 	background-color: $back-color;
 	height: $primary-height;
@@ -26,7 +26,6 @@ font-family: 'Montserrat', sans-serif;
 	color: #222;
 	}
 }
- 
 #header-title{
 display: block;
 float: left;
@@ -44,19 +43,7 @@ font-weight: bold;
 	}
 }
 
-
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: black;
-  color: white;
-  text-align: center;
-}
-
-
-/* Content*/
+/* Post Content*/
 .post{
 max-width: 800px;
 margin: 0 auto;
@@ -84,8 +71,18 @@ background-image: url(pic/Wissenschaft-junges-Sonnensystem_xl.jpg);
 {
 background-color: #f2f2f2;
 }
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background-color: #CFCFCF;
+}
 
-/*  about page */
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,255,0.7);
+}
+/*  About Page */
 .post, .about{
 max-width: 800px;
 margin: 0 auto;
@@ -116,28 +113,22 @@ text-align: center;
 .img-circle {
 border-radius: 50%;
 }
-
-
-.card {
-  /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  background-color: #CFCFCF;
+/* Footer */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
 }
-
-/* On mouse-over, add a deeper shadow */
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,255,0.7);
-}
-
-
-
+/* Common */
 .container{
 padding: 2px 16px;
 max-width: 500px;
 margin: 0 auto;
 }
-
 .column{
 min-width: 1000px;
 display: inline-block;

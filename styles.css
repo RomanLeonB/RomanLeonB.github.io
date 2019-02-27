@@ -1,4 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+/* Variables*/
+/* Body*/
 body {
   background-color: white;
   color: #555;
@@ -6,6 +8,7 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+/* Header*/
 #header {
   background-color: #1abc9c;
   height: 150px;
@@ -38,17 +41,7 @@ body {
   padding-left: 20px;
 }
 
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: black;
-  color: white;
-  text-align: center;
-}
-
-/* Content*/
+/* Post Content*/
 .post {
   max-width: 800px;
   margin: 0 auto;
@@ -81,7 +74,19 @@ body {
   background-color: #f2f2f2;
 }
 
-/*  about page */
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  background-color: #CFCFCF;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 255, 0.7);
+}
+
+/*  About Page */
 .post, .about {
   max-width: 800px;
   margin: 0 auto;
@@ -115,18 +120,18 @@ body {
   border-radius: 50%;
 }
 
-.card {
-  /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
-  background-color: #CFCFCF;
+/* Footer */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
 }
 
-/* On mouse-over, add a deeper shadow */
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 255, 0.7);
-}
-
+/* Common */
 .container {
   padding: 2px 16px;
   max-width: 500px;
